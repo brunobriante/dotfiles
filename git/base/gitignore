@@ -1,0 +1,11 @@
+# General
+.DS_Store
+[Tt]humbs.db
+
+# Package Managers
+node_modules/*
+bower_components/*
+
+# IDE
+.idea/*
+.vscode/*

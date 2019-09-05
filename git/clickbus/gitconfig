@@ -1,0 +1,7 @@
+[user]
+    name = Bruno Briante
+    email = bruno.briante@clickbus.com
+    signingkey = A6C9A84F963A4BAE
+
+[commit]
+    gpgsign = true

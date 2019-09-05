@@ -1,0 +1,7 @@
+[user]
+    name = Bruno Briante
+    email = bruno.briante@basementbear.com
+    signingkey = 8A470C24D5E45CAC
+
+[commit]
+    gpgsign = false

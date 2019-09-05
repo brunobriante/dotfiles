@@ -1,0 +1,40 @@
+[help]
+    autocorrect = 25
+
+[push]
+    default = current
+
+[stash]
+    showPath = true
+
+[core]
+    excludefiles = ~/.dotfiles/git/gitignore.base
+    attributesfile = ~/.dotfiles/git/gitattributes.base
+
+[merge]
+    log = true
+
+[pull]
+    rebase = true
+
+[meta]
+    isLocalConfig = true
+
+[alias]
+    l = log --pretty=oneline -n 20 --graph --abbrev-commit
+    s = status -s
+    d = diff
+
+    tags = tag -l
+    branches = branch -a
+    remotes = remote -v
+
+
+[includeIf "gitdir:~/Projects/ClickBus"]
+    path = ~/.dotfiles/git/clickbus/gitconfig
+
+[includeIf "gitdir:~/Projects/BasementBear"]
+    path = ~/.dotfiles/git/basementbear/gitconfig
+
+[includeIf "gitdir:~/Projects/Personal"]
+    path = ~/.dotfiles/git/personal/gitconfig

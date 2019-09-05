@@ -1,0 +1,7 @@
+[user]
+    name = Bruno Briante
+    email = bruno@briante.net
+    signingkey = DCE3DBE262604E30
+
+[commit]
+    gpgsign = true
